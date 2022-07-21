@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -26,6 +26,17 @@
 
 .App-link {
   color: #61dafb;
+}
+.NavBar{
+  background-color: #6794e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  font-size: large;
+}
+.SelectTitle{
+  padding-top: 10px;
+  padding-bottom: 10px
 }
 
 @keyframes App-logo-spin {
